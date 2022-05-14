@@ -1,0 +1,15 @@
+<html> 
+   
+<body>
+    <p>Texto recortado segun el numero de caracteres</p>
+<script>
+    
+    const recortarTexto = (cadena ="", longitud = undefined) =>
+    (!cadena)
+    ? console.warm("No ingresaste una cadena")
+    :console.info(cadena.slice(5,longitud));
+
+    recortarTexto("Amo a prospercity",17);
+</script>
+</body>    
+</html>

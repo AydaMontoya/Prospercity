@@ -1,0 +1,21 @@
+<html> 
+   
+<body>
+    <p>Aprobaste o no !!! :)</p>
+<script>
+
+var nota1 = parseFloat(prompt("Ingresa tu primera nota"));
+var nota2 = parseFloat(prompt("Ingresa tu segunda nota"));
+var nota3 = parseFloat(prompt("Ingresa tu tercera nota"));
+
+var promediodenotas = (nota1 + nota2 + nota3)/3;
+
+if(promediodenotas < 6){
+    alert("Reprobaste con un promedio de: "+promediodenotas.toFixed(2));
+}else{
+    alert("Pasaste con un promedio de: "+ promediodenotas.toFixed(2));
+}
+
+</script>
+</body>    
+</html>

@@ -1,0 +1,51 @@
+<html> 
+   
+<body>
+    <p>Tu sueldo con descuentos</p>
+<script>
+
+var sueldo_contador = 3000000;
+var sueldo_maestro = 2000000;
+var sueldo_doctor = 4000000;
+var otras_profesiones = 1000000;
+
+var pension = 0.04;
+var salud = 0.04;
+var afp = 0.1282;
+
+var num = prompt("Ingresa el código de la profesión: 1. Contador 2.Maestro 3. Doctor 4. Otras profesiones");
+
+if(num == 1){
+    pension = sueldo_contador * pension;
+    salud = sueldo_contador * salud;
+    afp = sueldo_contador * afp;
+    total_pagar = sueldo_contador - salud - pension - afp;
+    alert("Total sueldo del contador: " + total_pagar);
+
+}else if(num == 2){
+    pension = sueldo_maestro * pension;
+    salud = sueldo_maestro * salud;
+    afp = sueldo_maestro * afp;
+    total_pagar = sueldo_maestro - salud - pension - afp;
+    alert("Total sueldo del maestro: " + total_pagar);
+
+}else if(num == 3){
+    pension = sueldo_doctor * pension;
+    salud = sueldo_doctor * salud;
+    afp = sueldo_doctor * afp;
+    total_pagar = sueldo_doctor - salud - pension - afp;
+    alert("Total sueldo del doctor: " + total_pagar);
+
+}else if(num == 4){
+    pension = otras_profesiones  * pension;
+    salud = otras_profesiones  * salud;
+    afp = otras_profesiones  * afp;
+    total_pagar = otras_profesiones  - salud - pension - afp;
+    alert("Total sueldo otras profesiones: " + total_pagar); 
+}else{
+    alert("Este numero no esta en la base de datos");
+}
+
+</script>
+</body>    
+</html>
