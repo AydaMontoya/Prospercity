@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: rgb(84, 179, 174);
+  width: 100%;
+  height: 4rem;
+  font-size:4rem;
+  padding-top:0.5rem ;
+}
+
+.left{
+  float: left;
+  margin-left: 2rem;
+}
+
+.right{
+  float: right;
+  margin-right: 2rem;
+}
+
+.container li{
+  display: inline-block;
+}
+
+.nav{
+  display: grid;
+  grid-template-columns: 0.75fr 2.25fr;
+  height: 68.9rem;
+}
+
+.one{
+  background-color: rgb(183, 76, 158);
+  display: block;
+  padding: 1rem;
+}
+
+#one{
+  background-color: rgb(65, 20, 73);
+  height:14rem;
+  border-radius: 1rem;
+  margin: 1.5rem 1rem;
+}
+
+#two{
+  background-color: rgb(65, 20, 73);
+  height:14rem;
+  border-radius: 1rem;
+  margin: 1.5rem 1rem;
+}
+
+#three{
+  background-color: rgb(65, 20, 73);
+  height:14rem;
+  border-radius: 1rem;
+  margin: 1.5rem 1rem;
+}
+
+#four{
+  background-color: rgb(65, 20, 73);
+  height:14rem;
+  border-radius: 1rem;
+  margin: 1.5rem 1rem;
+}
+
+.two{
+  background-color: rgb(175, 83, 211);
+}
+
+footer{
+  position:absolute;
+  background-color: rgb(139, 223, 235);
+  width: 100%;
+  height: 10rem;
+  font-size:2rem;
+}
